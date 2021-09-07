@@ -21,5 +21,11 @@
   "bugs": {
     "url": "https://github.com/dksheffield/aws-commons/issues"
   },
-  "homepage": "https://github.com/dksheffield/aws-commons#readme"
+  "homepage": "https://github.com/dksheffield/aws-commons#readme",
+  "dependencies": {
+    "@aws-sdk/client-secrets-manager": "^3.29.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.11"
+  }
 }
