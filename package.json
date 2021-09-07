@@ -1,0 +1,25 @@
+{
+  "name": "@dksheffield/aws-commons",
+  "version": "0.1.0",
+  "description": "Common things for AWS Typescript Projects",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dksheffield/aws-commons.git"
+  },
+  "author": "David Sheffield",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dksheffield/aws-commons/issues"
+  },
+  "homepage": "https://github.com/dksheffield/aws-commons#readme"
+}
