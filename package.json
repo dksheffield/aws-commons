@@ -23,7 +23,8 @@
   },
   "homepage": "https://github.com/dksheffield/aws-commons#readme",
   "dependencies": {
-    "@aws-sdk/client-secrets-manager": "^3.29.0"
+    "@aws-sdk/client-secrets-manager": "^3.29.0",
+    "uuid": "^8.3.2"
   },
   "devDependencies": {
     "@types/node": "^16.7.11"
